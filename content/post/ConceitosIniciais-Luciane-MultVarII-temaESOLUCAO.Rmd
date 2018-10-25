@@ -1,0 +1,554 @@
+---
+title: "Analise Multivariada II"
+author: "Luciane Alcoforado"
+date: 2018-08-23T21:13:14-05:00
+categories: ["R"]
+tags: ["Análise Multivariada", "outlier", "dados faltantes", "normalidade multivariada", "multicolinearidade"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+	echo = TRUE,
+	message = FALSE,
+	warning = FALSE
+)
+```
+
+
+
+#Disciplina de Análise Multivariada II
+
+Aulas: 3a. e 5a. de 11 às 13h
+
+Recursos: Será necessário uso de computador/notebook com R, Rstudio e diversos pacotes instalados.
+
+Avaliação: Avaliação escrita com conceitos básicos para análise multivariada (Cap 2 - Hair) + Trabalhos Práticos com entrega de relatório e apresentação.
+
+Data da prova: 30/8 (sujeito a alteração)
+
+LatinR de 3 a 7/9 (professora irá neste evento apresentar trabalho)
+
+Semana Acadêmica: 16 a 19/10 (os alunos devem participar da agenda de eventos)
+
+
+
+
+##Bibliografia Básica
+
+![](https://dl4326nmjp5rc.cloudfront.net/Custom/Content/Products/99/07/990749_analise-multivariada-de-dados_m2_636638825665881176.jpg){width=250px}
+
+
+Análise Multivariada de Dados de autoria de Hair Jr, J.F. et al., 5a.edição, Porto Alegre: Bookman, 2005.
+
+
+![](https://www.editoraufmg.com.br/img/obra/capa/69/analise_de_dados_atraves.jpg){width=250px}
+
+
+Análise de Dados através de Métodos de Estatística Multivariada, Sueli Aparecida Mingoti, Belo Horizonte: Editora UFMG, 2005.
+
+
+![](https://imgmanagercb-a.akamaihd.net/livros/analise-multivariada-light-sem-matematica-vol-1-giovani-glaucio-de-oliveira-costa-8539907909_300x300-PU6e81a786_1.jpg){width=250px}
+
+Análise Multivariada Ligth, Giovani Glaucio de Oliveira Costa, Rio de Janeiro: Editora Ciência Moderna, 2017. 
+
+##Aula 1: Conceitos Iniciais
+
+**Análise Multivariada** refere-se a qualquer análise simultânea de mais de duas variáveis. (vide Hair pág 26). Seu propósito é medir, explicar e prever o grau de relacionamento entre variáveis estatísticas.
+
+**Variável Estatística** é uma combinação linear de variáveis com pesos empiricamente determinados. As variáveis são determinadas pelo pesquisador e os pesos pela técnica multivariada para atingir um objetivo específico. (vide Hair pág 27)
+
+**Escala de Medida**: dados métricos (quantitativos) e dados não-métricos (qualitativos)
+
+**Erro de medida** é o grau em que os valores observados não são representativos dos valores "verdadeiros". Ex: Falta de habilidade do respondente em fornecer informação precisa como a renda familiar.
+
+**Erro tipo I**: probabilidade de rejeitar a hipótese nula quando a mesma é verdadeira; é o falso positivo.
+
+**Poder do teste**: probabilidade de rejeitar corretamente a hipótese nula quando esta deve ser rejeitada.
+
+**Dados Censurados** observações incompletas de um indivíduo ou caso
+
+**Dados Perdidos** informação não disponível de um indivíduo ou caso.
+
+**Método de atribuição**: processo de estimação dos *dados perdidos* de um observação com base em valores válidos de outras variáveis.
+
+**Observação atípica**: observação substancialmente diferente das outras, um valor extremo.
+
+**Homocedasticidade e Heterocedasticidade**:quando a variância dos erros é constante ao longo do domínio de variáveis preditoras, diz-se que os dados são homocedásticos; quando a variância dos erros é crescente ou flutuante, diz-se que os dados são heterocedásticos.
+
+**Resíduo** é a parte de uma variável dependente não explicada por uma técnica multivariada.
+
+**Variável dicotômica**: variável com duas respostas possíveis: sim ou não, 0 ou 1, ausente ou presente, etc
+
+#Aula 2
+
+## Dados Perdidos - o que fazer?
+
+Investigar os dados perdidos, perguntas a serem feitas:
+
++ Os dados perdidos estão distribuídos ao acaso pelas observações ou são padrões distintos identificáveis?
+
++ Qual é a frequência dos dados perdidos?
+
+Para nos auxiliar na análise de padrão de dados perdidos usaremos a função *TestMCARNormality* do pacote **MissMech**. 
+
+Na prática, muitas vezes nos deparamos com conjuntos de dados perdidos. Excluir casos perdidos pode levar a inferência tendenciosa. Por outro lado, deve-se evitar adotar metodologias de atribuição de valores perdidos sem antes realizar a análise de padrão dos dados perdidos.
+
+Desse modo, antes da adoção de métodos de atribuição, devemos realizar a análise de padrão dos dados perdidos.
+
+O pacote **MissMech** (Jamshidian, Jalal e Jansen 2014) implementa testes MCAR (missing completely at random) de ponta desenvolvidos por Jamshidian e Jalal (2010). Como
+um subproduto da rotina principal, este pacote é capaz de testar a normalidade multivariada em alguns casos, e realizar uma série de outros testes. Para estudos aprofundados consultar [https://www.jstatsoft.org/article/view/v056i06]
+
+Considere que $n$ é o número de casos; $p$ é o número de variáveis. O número de casos completos deve ser maior ou igual a 2\*$p$, além disso, só utilizaremos este pacote no caso de haver valores perdidos e a função só se aplica se o número mínimo de casos para um grupo de casos perdidos for maior do que 1 e corresponde ao argumento *del.lesscases* = 1 (o default é 6); se o conjunto de dados não tiver mais do que 1 dado perdido para cada grupo de casos perdidos, a função retornará erro.
+
+O teste de hipótese a ser realizado pela função *TestMCARNormality* do pacote **MissMech** é $H_0:$ As variância dos grupos são iguais (homocedasticidade)
+
+```{r fig.height=3, fig.width=7, warning=FALSE}
+#Exemplo: vamos criar um conjunto de dados com 20 casos e 5 variáveis.
+
+
+#MAR - dados perdidos ao acaso (Missin at Random)
+
+#MCAR - dados perdidos completamente ao acaso (Missing Completaly at Random)
+
+require(tidyverse)
+
+n <- 20
+p <- 5
+set.seed(1010)
+y <- matrix(rnorm(n * p),nrow = n)
+
+#Vamos definir alguns casos perdidos
+y[1:4,3] <- NA
+y[2:4,5] <- NA
+
+#Visualizando os dados
+y=as.tibble(y)
+y
+
+#Visualizando dados faltantes em gráfico
+require(DescTools)
+PlotMiss(y, main="Dados Faltantes")
+
+require(Amelia)
+missmap(y)
+
+require(MissMech)
+out <- TestMCARNormality(data=y, del.lesscases = 1)
+
+summary(out)
+
+```
+
+Observe que:
+
+Há um valor perdido no caso 1 (variável 3);
+
+Há 2 valores perdidos nos casos de 2 a 4 (variável 3 e variável 5) o que resultou em 2 grupos, grupo 1 com 3 casos e grupo 2 (caso completo) com 16 casos, totalizando 19 casos na análise;
+
+O caso 1 não é considerado pois há apenas um grupo com este padrão;
+
+O teste retorna p-valor 0.44 indicando a aceitação da normalidade multivariada e a aleatoriedade dos dados perdidos. Desse modo podemos realizar o processo de atribuição de valores aos casos perdidos.
+
+Exercício:
+
+1. Realize a análise para os dados da tabela 2.1 Ref. (Hair 6a.ed. pág 59)
+
+![](C:\\Users\\TPC02\\Documents\\Disciplinas\\Multivariada\\IMG\\Dadosperdidos-tab21hair.png) 
+
+
+2. Simule um conjunto de dados com 300 casos e 8 variáveis e alguns dados perdidos distribuídos ao acaso. Realize a análise MCAR. OBS: quando há muitos dados pode-se omitir o argumento *del.lesscases*, neste caso o padrão da função *TestMCARNormality* do pacote **MissMech** é *del.lesscases*=6, o que significa que todos os grupo com número de casos menor do que 6 não são considerados na análise.
+
+3. Realize o teste no conjunto de dados iris, imputando alguns valores perdidos, procurando estabelecer um padrão não aleatório.
+
+```{r eval=FALSE}
+
+irisna=tibble::as.tibble(iris)
+irisna[1:10,1:2] <-NA
+irisna[5:15,3]<-NA
+irisna[1:60,1]<-NA
+irisna[1:100,4]<-NA
+irisna
+out <- TestMCARNormality(data=irisna[,-5], del.lesscases = 1)
+
+summary(out)
+summary(irisna)
+```
+
+4. Apresente visualização de dados perdidos para os casos anteriores
+
+Para aprofundar seus estudos em visualização de dados perdidos consulte [https://www.jstatsoft.org/index.php/jss/article/view/v068i06/v68i06.pdf]
+
+
+###Tratamentos para lidar com dados perdidos
+
++ Incluir somente as observações com dados completos
+
+Veja que no exemplo da tab 2-1 do Hair, 23% de dados perdidos levariam a excluir 15 casos dos 20, o que representa um conjunto de dados completos de apenas 5 casos!
+
++ Eliminar casos ou variáveis problemáticas
+
+Seguindo essa diretriz pensaríamos em eliminar o caso 13 e/ou a variável V3 que apresentam os maiores percentuais de dados perdidos. Não há uma orientação segura, desse modo o analista deverá considerar as perdas e ganhos no processo de elminação. 
+
++ Utilizar um método de atribuição (Hair pág 61 a 64)
+
+O que são os métodos de atribuição? Qual a vantagem de se utilizar? Que pacotes do R posso utilizar para me auxiliar nesta tarefa?
+
+Veja pacote **mice** função *mice* e pacote **VIM** função *kNN*.
+
+```{r message=FALSE, warning=FALSE}
+y
+
+require(mice)
+complete(mice(y, print=FALSE))
+
+require(VIM)
+y_knn=kNN(y)
+y_knn
+```
+
+
++Exercício: Com base nos dados da tabela 2.1 realize a avaliação de dados perdidos, realize o procedimento de substituição dos valores perdidos e faça uma comparação entre a média das variáveis antes e após a substituição dos valores perdidos.
+
+#Aula 3
+
+##Observações atípicas - o que fazer?
+
++ Identificá-las
+
+ Motivos de ocorrência: erro de entrada de dados; resultado de um evento extraordinário para o qual haja uma explicação; resultado de um evento extraordinário para o qual não haja uma explicação; observações que estão no intervalo usual de valores para cada variável mas cuja combinação produz resultados fora do comum, por exemplo é possível observar pessoas com 1,50 a 1,90 m e com peso de 40 a 120 kg o que não é comum é uma pessoa de 1,90 m pesar 40 kg.
+
++ Detecção Univariada
+
+Identificar observações atípicas a partir do exame da distribuição de observações. Por exemplo na análise exploratória podemos utilizamos o boxplot ou se a variável possui distribuição normal, padronizar os valores observados que deverão estar entre -3 e 3 com 99.7% de probabilidade, fora deste intervalo é considerado atípico. Para amostras pequenas (80 ou menos), as diretrizes em Hair sugerem escores padronizados entre -2.5 e 2.5; caso contrário é considerado atípico.
+
+![](C:\\Users\\TPC02\\Documents\\Disciplinas\\Multivariada\\IMG\\outlierunivar1.png)
+
++ Detecção bivariada
+
+Utiliza-se o diagrama de dispersão. Os valores atípicos são aqueles que caem fora da elipse que representa o intervalo de confiança da distribuição normal bivariada.
+
+```{r}
+library(ggplot2)
+ggplot(faithful, aes(waiting, eruptions)) +
+  geom_point() +
+  stat_ellipse()
+```
+
+
++ Detecção Multivariada
+
+Utiliza-se a Medida de Mahalanobis, é uma medida de distância no espaço multidimensional de cada observação em relação ao centro médio das observações. É possível realizar testes de significância para a medida de Mahalanobis.
+
+
+```{r}
+df=data.frame(
+  x1=c(1,2,3,5,3,1,8,4,5,4),      x2=c(2,1,3,5,3,3,8,4,5,5),
+  x3=c(1,1,2,3,3,3,8,5,5,5), x4=c(3,1,2,5,2,1,7,4,4,4))
+df #dados
+cor(df) #matriz de correlação
+d2=mahalanobis(df, center=colMeans(df),cov=cov(df))
+
+#Se a amostra tiver distribuição aproximadamente normal
+# a distância de mahalanobis terá distribuição
+#qui-quadrada com g = n.variaveis da amostra graus de liberdade.
+
+d2
+qchisq(.975, ncol(df)) #distância acima do percentil 95 indica outlier.
+
+#Neste exemplo não houve detecção de outlier multivariado usando a distância de Mahalanobis
+```
+
+# Aula 4: 
+
+## Normalidade Multivariada
+
++ Teste univariado da normalidade
+
++ Teste multivariado da normalidade: se uma variável é normal multivariada também é normal univariada. A recíproca nem sempre é verdadeira.
+
++ Inicie testando a normalidade univariada: teste de shapiro ou teste de Kolmogorov-Smirnov
+
+```{r}
+apply(df,2,shapiro.test)
+```
+
++ Pacote para testar normalidade multivariada:
+
+```{r}
+mvnormtest::mshapiro.test(t(df))
+```
+
+Vamos criar um conjunto de dados com distribuição normal multivariada
+
+```{r}
+#Teste muito sensível, tendência a rejeitar a normalidade 
+n <- 300
+p <- 4
+set.seed(1010)
+y <- matrix(rnorm(n * p),nrow = n)
+
+mvnormtest::mshapiro.test(t(y))
+
+```
+
+
+
+Exercício
+
+1. Teste a normalidade multivariada nas variáveis numéricas do conjunto de dados iris
+
+2. Crie um conjunto de dados multivariado com n = 300 e p = 5 e aplique o teste de shapiro multivariado ao mesmo.
+
+```{r eval=FALSE}
+#1
+irism=as.matrix(iris[,-5])
+
+mvnormtest::mshapiro.test(t(irism))
+
+#2. Semelhante ao exemplo
+
+```
+
+3. Pesquise sobre o pacote MVN. Para que serve este pacote?
+
+
+
++ Transformações para atingir a normalidade (Hair pág 81) 
+
+Que transformações são possíveis para atingir a normalidade dos dados? Realize uma pesquisa sobre este assunto, apresente um exemplo completo.
+
+#Aula 5
+
+##Dados não métricos com variáveis dicotômicas
+
+Variável Sexo, possui 2 categorias feminino ou masculino. Definimos uma variável dicotômica X1 = 1 se feminino ocorre e 0 em caso contrário. Ou ainda X1 = 1 se masculino ocorre e 0 em caso contrário. A categoria omitida refere-se ao grupo de comparação. Assim na modelagem se X1 = 1 for para o caso feminino, estaremos comparando o resultado feminino em relação a categoria omitida que é o grupo masculino. (Hair pg 86 e 87 tabela 2.13 e 2.14)
+
+
+
+##Multicolinearidade
+
+Ocorre quando qualquer variável independente é altamente correlacionada com o conjunto de outra variáveis independentes.
+
+O ideal é ter diversas variáveis independentes altamente correlacionadas com a variável dependente, mas com pouca correlação entre elas próprias
+
+##Os efeitos da multicolinearidade
+
+O caso extremo de colinearidade ou multicolinearidade no qual uma variável independente é perfeitamente prevista (uma correlação de ± 1,0) por uma ou mais variáveis independentes.Modelos de regressão não podem ser estimados quando existe uma singularidade. O pesquisador deve omitir uma ou mais das variáveis independentes envolvidas para remover a singularidade.
+
+Um exemplo simples:
+
+```{r}
+M=matrix(c(1,2,4,2,4,8,3,6,12,5,10,1),ncol=3,nrow=4, byrow = T)
+
+M
+cor(M)
+
+lm(M[,3]~M[,1]+M[,2]) #singularidade não permite estimar o parâmetro
+
+lm(M[,1]~M[,2]+M[,3])
+```
+
+Um exemplo com 4 variáveis simulando um conjunto de dados com uma estrutura de correlação variada. Mais detalhes pode ser visto [aqui](https://beckmw.wordpress.com/2013/02/05/collinearity-and-stepwise-vif-selection/)
+
+```{r}
+require(MASS)
+require(clusterGeneration)
+
+set.seed(20)
+num.vars<-4
+num.obs<-30
+cov.mat<-genPositiveDefMat(num.vars,covMethod="unifcorrmat")$Sigma
+X<-mvrnorm(num.obs,rep(0,num.vars),Sigma=cov.mat)
+print(cor(X), digits = 1)
+```
+
+Agora vamos simular a variável resposta y como combinação linear das quatro variáveis geradas anteriormente mais um erro aleatório.
+
+```{r}
+set.seed(2)
+parms<-runif(num.vars,-10,10)
+y<-X %*% matrix(parms) + rnorm(num.obs,sd=2)
+```
+
+Agora vamos ajustar um modelo de regressão: y ~ x1+x2+x3+x4
+
+```{r}
+dados<-data.frame(y,X)
+form.in<-paste('y ~',paste(names(dados)[-1],collapse='+'))
+form.in
+mod1<-lm(y ~ X1+X2+X3+X4,data=dados)
+summary(mod1)
+```
+
+Esperaríamos que um modelo de regressão indicasse que cada uma das quatro variáveis explanatórias estão significativamente relacionadas à variável resposta y, uma vez que sabemos a verdadeira relação de y com cada uma das variáveis. No entanto, devemos lembrar que nossas variáveis explicativas estão correlacionadas. O que acontece quando criamos o modelo?
+
+Observamos que apenas a variável $X_2$ esta significativamente relacionada à variável resposta (com $\alpha = 0,05$), mas sabemos que cada uma das variáveis está relacionada a y.
+
+Podemos tentar uma abordagem alternativa para construir o modelo que considera a colinearidade entre as variáveis explicativas, ou seja, precisamos avaliar a multicolinearidade.
+
+##Avaliação da multicolinearidade
+
+Hair (pag 190 6a. edicao)
+Uma questão-chave na interpretação da variável estatística de regressão é a correlação entre as variáveis independentes. Esse é um problema de dados, e não de especificação de modelo. A situação ideal para um pesquisador seria ter diversas variáveis independentes altamente correlacionadas com a variável dependente, mas com pouca correlação entre elas próprias.
+
+A tarefa do pesquisador inclui o seguinte:
+
++ Avaliar o grau de multicolinearidade.
+
++ Determinar seu impacto sobre os resultados.
+
++ Aplicar as necessárias ações corretivas, se for o caso.
+
+A maneira mais simples e óbvia de identificar colinearidade é um exame da matriz de correlação para as variáveis independentes. A presença de elevadas correlações (geralmente 0,90 ou maiores) é a primeira indicação de colinearidade substancial. No entanto, a falta de valores elevados de correlação não garante ausência de colinearidade.
+
+Colinearidade pode ser proveniente do efeito combinado de duas ou mais variáveis independentes (o que se chama de multicolinearidade). Para avaliar multicolinearidade precisamos de uma medida que expresse o grau em que cada variável independente é explicada pelo conjunto de outras variáveis independentes. Em termos simples, cada variável independente se torna uma variável dependente e é regredida relativamente às demais variáveis independentes. As duas medidas mais comuns para se avaliar colinearidade aos pares ou múltipla são a tolerância e sua inversa, o fator de inflação de variância conhecido como VIF (Variance Inflation Factor).
+
+##Como detectar a multicolinearidade?
+
+Alguns métodos serão listados abaixo:
+
+1. **Coeficiente de correlação simples**: é uma medida comumente usada no caso de duas variáveis independentes, sendo suficiente para detectar a colinearidade. Considera-se que um coeficiente de correlação maior que 0,80 ou 0,90 é indicativo de colinearidade. Porém, para mais de duas variáveis independentes, mesmo os coeficientes de correlação sendo baixos ainda pode existir a multicolinearidade, pois pares de correlações podem não dar visão de intercorrelacionamentos mais complexos entre três ou mais variáveis;
+
+```{r}
+print(cor(X), digits = 1)
+```
+
+
+2. **Determinante da matriz de correlação**: analisar o determinante da matriz de correlações entre as variáveis independentes. Um valor deste determinante próximo de zero é indicativo de multicolinearidade.
+
+```{r}
+det(cor(X))
+```
+
+
+3. **Autovalores**: Sejam $λ_i$ , i=1,...,p, os autovalores da matriz de correlação das variáveis independentes. Obtenha L, dado por $L=λ_{máx}/λ_{mín}$, onde $λ_{máx}$ é o maior autovalor e $λ_{mín}$ é o menor autovalor. Se $L < 100$, considera-se não existir multicolinearidade, se $100 \leq L \leq 1000$ existe multicolinearidade moderada e se $L > 1000$ há indicativo de forte multicolinearidade.
+
+```{r}
+lambda=eigen(cor(X))$values
+L= max(lambda)/min(lambda)
+L
+```
+
+
+4. **Tolerância/VIF**: uma forma de descobrir qual variável $X_i$ está
+relacionada a outras variáveis independentes $X_1$, $X_2$, ..., $X_n$ é fazer a regressão de cada $X_i$ contra as demais variáveis X e calcular o $R^2$ correspondente ($R^2_i$). A tolerância é dada por $1-R^2_i$ e o $VIF_i = \frac{1}{1-R^2_i}$. Se $R^2_i$ aumenta no sentido da unidade, a colinearidade de $X_i$ com os outros regressores também aumenta. Então o VIF também aumenta e, no limite tende a infinito. 
+
+```{r}
+car::vif(mod1)
+```
+
+
+
+##Tolerância/VIF
+
+Para qualquer modelo de regressão com duas ou mais variáveis independentes, a tolerância pode ser simplesmente definida em dois passos:
+
+1. Considere cada variável independente, uma por vez, e calcule $R^2$ (coeficiente de variação entre a variável em questão e todas as demais variáveis independentes no modelo de regressão). Neste processo, a variável independente escolhida é transformada em uma dependente prevista pelas demais.
+
+2. Tolerância é então calculada como 1 – $R^2$ e o VIF = $\frac{1}{1-R^2}$ . Por exemplo, se
+as outras variáveis independentes explicam 25% da variável independente $X_1$ ($R^2$ = 0,25), então o valor de tolerância de $X_1$ é 0,75 (1,0 – 0,25 = 0,75) e o VIF é 1.33.
+
+O valor de tolerância deve ser alto, o que significa um pequeno grau de multicolinearidade (i.e., as outras variáveis independentes coletivamente não têm qualquer quantia considerável de variância compartilhada). 
+
+Abaixo, tabela que indica a relação entre o aumento do grau de correlação entre as variáveis e o aumento do VIF, ou seja, quanto maior a correlação entre as variáveis dependentes maior será o VIF e o nível dessa correlação:
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+R2=c(0.4, 0.6, 0.75, 0.85, 0.9)
+Tol=1-R2
+VIF=1/Tol
+Niveis = c("Fraca","Média","Forte","Muito Forte","Fortíssima")
+tab=data.frame(R2,Tol,VIF,Niveis)
+row.names(tab) = c("até 0.4", "próximo de 0.6", "próximo de 0.75", "próximo de 0.85", "0.9 ou mais")
+
+
+tab1=knitr::kable(tab, digits = c(2,2,2), row.names = T, align=rep("c",4), booktabs=TRUE)
+
+library(kableExtra)
+kable_styling(tab1,bootstrap_options = "striped", full_width = F, position = "center") %>% add_header_above(c("","Nivel de multicolinearidade" = 4))
+
+```
+
+Tem pacote do R para calcular o VIF? Tem vários. Um deles é o **car**.
+
+Voltando ao nosso modelo:
+```{r}
+summary(mod1)
+car::vif(mod1)
+```
+
+A variável X4 é a que apresenta o maior valor para VIF. Vamos remover esta variável e repetir a análise.
+
+```{r}
+mod2<-lm(y ~ X1+X2+X3,data=dados)
+summary(mod2)
+car::vif(mod2)
+
+```
+
+O modelo 2 de regressão é muito melhor que o modelo 1. Observamos um ajuste melhor do número de variáveis que estão significativamente relacionadas à variável resposta. 
+
+##Exercício:
+
+1- Pegue uma base de dados (Iris, attitude, Orange ) e realize a análise de dados discrepantes, multicolinearidade e teste de normalidade.
+
+```{r}
+#Dica: se for necessário, faça uma seleção de variáveis.
+
+#teste de valores discrepantes
+d2=mahalanobis(iris[,-5], center=colMeans(iris[,-5]), cov=cov(iris[,-5]))
+qc=qchisq(0.975,4)
+which(d2>qc)
+
+
+#Teste de multicolinearidade
+Miris=cor(iris[,-5])
+print(Miris,digits = 1)  #indício se multicolinearidade
+det(Miris) #indício se multicolinearidade
+lambda=eigen(Miris)$values
+L= max(lambda)/min(lambda)
+L #Multicolinearidade Moderada pois L>100
+
+modiris<-lm(Sepal.Length ~ Sepal.Width + Petal.Length + Petal.Width, data=iris)
+summary(modiris)
+car::vif(modiris)
+#Eliminando Petal.Length
+
+modiris2<-lm(Sepal.Length ~ Sepal.Width +  Petal.Width, data=iris)
+summary(modiris2) #modelo proposto
+car::vif(modiris2)
+
+#teste de normalidade
+mvnormtest::mshapiro.test(t(as.matrix(iris[,-c(3,5)])))
+
+```
+
+
+2- Crie uma matriz de dados multivariada com 10 variáveis explicativas, 1 variável resposta e 200 observações. Teste a multicolinearidade e proponha um modelo de regressão para y.
+
+```{r}
+#Dica: tome como base o último exemplo com a matriz X (linha 356 do arquivo Rmd)
+```
+
+
+
+#Avaliação dos conceitos iniciais
+
+Prova escrita.
+
+
+
+
+##Referências
+
+Cheng, X., Cook, D., & Hofmann, H. (2015). Visually Exploring Missing Values in Multivariable Data Using a Graphical User Interface. Journal of Statistical Software, 68(6), 1 - 23. doi:http://dx.doi.org/10.18637/jss.v068.i06
+
+Jamshidian, M., Jalal, S., & Jansen, C. (2014). MissMech: An R Package for Testing Homoscedasticity, Multivariate Normality, and Missing Completely at Random (MCAR). Journal of Statistical Software, 56(6), 1 - 31. doi:http://dx.doi.org/10.18637/jss.v056.i06
+
+https://beckmw.wordpress.com/2013/02/05/collinearity-and-stepwise-vif-selection/
+
+
+```{r eval=FALSE}
+print(sessionInfo(), locale = FALSE)
+```
+
+
