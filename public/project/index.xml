@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Analytics</title>
+    <link>/project/</link>
+    <description>Recent content in Projects on Analytics</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 -0300</lastBuildDate>
+    
+	<atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Estatística é com R! Project</title>
+      <link>/project/external-project1/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0300</pubDate>
+      
+      <guid>/project/external-project1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SER</title>
+      <link>/project/external-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0300</pubDate>
+      
+      <guid>/project/external-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Smart City Project</title>
+      <link>/project/internal-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0300</pubDate>
+      
+      <guid>/project/internal-project/</guid>
+      <description>Equipe multidisciplinar com base matemática, estatística e de engenharia para o desenvolvimento de soluções otimizadas aplicadas à projeção, instalação e monitoramento de processos de engenharia para cidades inteligentes.</description>
+    </item>
+    
+  </channel>
+</rss>

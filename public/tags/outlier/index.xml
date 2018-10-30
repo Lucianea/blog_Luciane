@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>outlier on Analytics</title>
+    <link>/tags/outlier/</link>
+    <description>Recent content in outlier on Analytics</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Thu, 23 Aug 2018 21:13:14 -0500</lastBuildDate>
+    
+	<atom:link href="/tags/outlier/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Analise Multivariada II</title>
+      <link>/post/conceitosiniciais-luciane-multvarii-temaesolucao/</link>
+      <pubDate>Thu, 23 Aug 2018 21:13:14 -0500</pubDate>
+      
+      <guid>/post/conceitosiniciais-luciane-multvarii-temaesolucao/</guid>
+      <description>Disciplina de Análise Multivariada IIAulas: 3a. e 5a. de 11 às 13h
+Recursos: Será necessário uso de computador/notebook com R, Rstudio e diversos pacotes instalados.
+Avaliação: Avaliação escrita com conceitos básicos para análise multivariada (Cap 2 - Hair) + Trabalhos Práticos com entrega de relatório e apresentação.
+Data da prova: 30/8 (sujeito a alteração)
+LatinR de 3 a 7/9 (professora irá neste evento apresentar trabalho)
+Semana Acadêmica: 16 a 19/10 (os alunos devem participar da agenda de eventos)</description>
+    </item>
+    
+  </channel>
+</rss>

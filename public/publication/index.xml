@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Analytics</title>
+    <link>/publication/</link>
+    <description>Recent content in Publications on Analytics</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0200</lastBuildDate>
+    
+	<atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>R-ladies Niterói</title>
+      <link>/publication/r-ladies-niteroi/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 -0300</pubDate>
+      
+      <guid>/publication/r-ladies-niteroi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Minicurso de Introdução ao R</title>
+      <link>/publication/introducaoaor/</link>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 -0300</pubDate>
+      
+      <guid>/publication/introducaoaor/</guid>
+      <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
+    </item>
+    
+  </channel>
+</rss>

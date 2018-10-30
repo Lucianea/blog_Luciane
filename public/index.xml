@@ -1,0 +1,1145 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Analytics on Analytics</title>
+    <link>/</link>
+    <description>Recent content in Analytics on Analytics</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0300</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>O projeto Estatística é com R!</title>
+      <link>/post/getting-started/</link>
+      <pubDate>Sat, 20 Oct 2018 00:00:00 -0300</pubDate>
+      
+      <guid>/post/getting-started/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;Academic&lt;/strong&gt; makes it easy to create a beautiful website for free using Markdown. Customize anything on your site with widgets, themes, and language packs.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.estatisticacomr.uff.br&#34; target=&#34;_blank&#34;&gt;Check out the update site&lt;/a&gt; for full instructions.&lt;/p&gt;
+
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md&#34; target=&#34;_blank&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Example Page</title>
+      <link>/tutorial/example/</link>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 -0300</pubDate>
+      
+      <guid>/tutorial/example/</guid>
+      <description>
+
+&lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
+
+&lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
+
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+
+&lt;h2 id=&#34;tip-2&#34;&gt;Tip 2&lt;/h2&gt;
+
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Analise Multivariada II</title>
+      <link>/post/conceitosiniciais-luciane-multvarii-temaesolucao/</link>
+      <pubDate>Thu, 23 Aug 2018 21:13:14 -0500</pubDate>
+      
+      <guid>/post/conceitosiniciais-luciane-multvarii-temaesolucao/</guid>
+      <description>&lt;div id=&#34;disciplina-de-analise-multivariada-ii&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Disciplina de Análise Multivariada II&lt;/h1&gt;
+&lt;p&gt;Aulas: 3a. e 5a. de 11 às 13h&lt;/p&gt;
+&lt;p&gt;Recursos: Será necessário uso de computador/notebook com R, Rstudio e diversos pacotes instalados.&lt;/p&gt;
+&lt;p&gt;Avaliação: Avaliação escrita com conceitos básicos para análise multivariada (Cap 2 - Hair) + Trabalhos Práticos com entrega de relatório e apresentação.&lt;/p&gt;
+&lt;p&gt;Data da prova: 30/8 (sujeito a alteração)&lt;/p&gt;
+&lt;p&gt;LatinR de 3 a 7/9 (professora irá neste evento apresentar trabalho)&lt;/p&gt;
+&lt;p&gt;Semana Acadêmica: 16 a 19/10 (os alunos devem participar da agenda de eventos)&lt;/p&gt;
+&lt;div id=&#34;bibliografia-basica&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Bibliografia Básica&lt;/h2&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;https://dl4326nmjp5rc.cloudfront.net/Custom/Content/Products/99/07/990749_analise-multivariada-de-dados_m2_636638825665881176.jpg&#34; width=&#34;250&#34; /&gt;
+
+&lt;/div&gt;
+&lt;p&gt;Análise Multivariada de Dados de autoria de Hair Jr, J.F. et al., 5a.edição, Porto Alegre: Bookman, 2005.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;https://www.editoraufmg.com.br/img/obra/capa/69/analise_de_dados_atraves.jpg&#34; width=&#34;250&#34; /&gt;
+
+&lt;/div&gt;
+&lt;p&gt;Análise de Dados através de Métodos de Estatística Multivariada, Sueli Aparecida Mingoti, Belo Horizonte: Editora UFMG, 2005.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;https://imgmanagercb-a.akamaihd.net/livros/analise-multivariada-light-sem-matematica-vol-1-giovani-glaucio-de-oliveira-costa-8539907909_300x300-PU6e81a786_1.jpg&#34; width=&#34;250&#34; /&gt;
+
+&lt;/div&gt;
+&lt;p&gt;Análise Multivariada Ligth, Giovani Glaucio de Oliveira Costa, Rio de Janeiro: Editora Ciência Moderna, 2017.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;aula-1-conceitos-iniciais&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Aula 1: Conceitos Iniciais&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Análise Multivariada&lt;/strong&gt; refere-se a qualquer análise simultânea de mais de duas variáveis. (vide Hair pág 26). Seu propósito é medir, explicar e prever o grau de relacionamento entre variáveis estatísticas.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Variável Estatística&lt;/strong&gt; é uma combinação linear de variáveis com pesos empiricamente determinados. As variáveis são determinadas pelo pesquisador e os pesos pela técnica multivariada para atingir um objetivo específico. (vide Hair pág 27)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Escala de Medida&lt;/strong&gt;: dados métricos (quantitativos) e dados não-métricos (qualitativos)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Erro de medida&lt;/strong&gt; é o grau em que os valores observados não são representativos dos valores “verdadeiros”. Ex: Falta de habilidade do respondente em fornecer informação precisa como a renda familiar.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Erro tipo I&lt;/strong&gt;: probabilidade de rejeitar a hipótese nula quando a mesma é verdadeira; é o falso positivo.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Poder do teste&lt;/strong&gt;: probabilidade de rejeitar corretamente a hipótese nula quando esta deve ser rejeitada.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Dados Censurados&lt;/strong&gt; observações incompletas de um indivíduo ou caso&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Dados Perdidos&lt;/strong&gt; informação não disponível de um indivíduo ou caso.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Método de atribuição&lt;/strong&gt;: processo de estimação dos &lt;em&gt;dados perdidos&lt;/em&gt; de um observação com base em valores válidos de outras variáveis.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Observação atípica&lt;/strong&gt;: observação substancialmente diferente das outras, um valor extremo.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Homocedasticidade e Heterocedasticidade&lt;/strong&gt;:quando a variância dos erros é constante ao longo do domínio de variáveis preditoras, diz-se que os dados são homocedásticos; quando a variância dos erros é crescente ou flutuante, diz-se que os dados são heterocedásticos.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resíduo&lt;/strong&gt; é a parte de uma variável dependente não explicada por uma técnica multivariada.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Variável dicotômica&lt;/strong&gt;: variável com duas respostas possíveis: sim ou não, 0 ou 1, ausente ou presente, etc&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;aula-2&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Aula 2&lt;/h1&gt;
+&lt;div id=&#34;dados-perdidos---o-que-fazer&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Dados Perdidos - o que fazer?&lt;/h2&gt;
+&lt;p&gt;Investigar os dados perdidos, perguntas a serem feitas:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Os dados perdidos estão distribuídos ao acaso pelas observações ou são padrões distintos identificáveis?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Qual é a frequência dos dados perdidos?&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Para nos auxiliar na análise de padrão de dados perdidos usaremos a função &lt;em&gt;TestMCARNormality&lt;/em&gt; do pacote &lt;strong&gt;MissMech&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Na prática, muitas vezes nos deparamos com conjuntos de dados perdidos. Excluir casos perdidos pode levar a inferência tendenciosa. Por outro lado, deve-se evitar adotar metodologias de atribuição de valores perdidos sem antes realizar a análise de padrão dos dados perdidos.&lt;/p&gt;
+&lt;p&gt;Desse modo, antes da adoção de métodos de atribuição, devemos realizar a análise de padrão dos dados perdidos.&lt;/p&gt;
+&lt;p&gt;O pacote &lt;strong&gt;MissMech&lt;/strong&gt; (Jamshidian, Jalal e Jansen 2014) implementa testes MCAR (missing completely at random) de ponta desenvolvidos por Jamshidian e Jalal (2010). Como um subproduto da rotina principal, este pacote é capaz de testar a normalidade multivariada em alguns casos, e realizar uma série de outros testes. Para estudos aprofundados consultar [&lt;a href=&#34;https://www.jstatsoft.org/article/view/v056i06&#34; class=&#34;uri&#34;&gt;https://www.jstatsoft.org/article/view/v056i06&lt;/a&gt;]&lt;/p&gt;
+&lt;p&gt;Considere que &lt;span class=&#34;math inline&#34;&gt;\(n\)&lt;/span&gt; é o número de casos; &lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt; é o número de variáveis. O número de casos completos deve ser maior ou igual a 2*&lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt;, além disso, só utilizaremos este pacote no caso de haver valores perdidos e a função só se aplica se o número mínimo de casos para um grupo de casos perdidos for maior do que 1 e corresponde ao argumento &lt;em&gt;del.lesscases&lt;/em&gt; = 1 (o default é 6); se o conjunto de dados não tiver mais do que 1 dado perdido para cada grupo de casos perdidos, a função retornará erro.&lt;/p&gt;
+&lt;p&gt;O teste de hipótese a ser realizado pela função &lt;em&gt;TestMCARNormality&lt;/em&gt; do pacote &lt;strong&gt;MissMech&lt;/strong&gt; é &lt;span class=&#34;math inline&#34;&gt;\(H_0:\)&lt;/span&gt; As variância dos grupos são iguais (homocedasticidade)&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Exemplo: vamos criar um conjunto de dados com 20 casos e 5 variáveis.
+
+
+#MAR - dados perdidos ao acaso (Missin at Random)
+
+#MCAR - dados perdidos completamente ao acaso (Missing Completaly at Random)
+
+require(tidyverse)
+
+n &amp;lt;- 20
+p &amp;lt;- 5
+set.seed(1010)
+y &amp;lt;- matrix(rnorm(n * p),nrow = n)
+
+#Vamos definir alguns casos perdidos
+y[1:4,3] &amp;lt;- NA
+y[2:4,5] &amp;lt;- NA
+
+#Visualizando os dados
+y=as.tibble(y)
+y&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 20 x 5
+##         V1      V2       V3       V4       V5
+##      &amp;lt;dbl&amp;gt;   &amp;lt;dbl&amp;gt;    &amp;lt;dbl&amp;gt;    &amp;lt;dbl&amp;gt;    &amp;lt;dbl&amp;gt;
+##  1  0.132   0.0849  NA       1.57      1.23  
+##  2 -0.898   0.715   NA       0.645    NA     
+##  3  1.35   -0.966   NA       0.853    NA     
+##  4  0.420   0.462   NA      -0.360    NA     
+##  5 -0.288  -0.686   -0.694   0.517     0.509 
+##  6  1.36    0.739    0.157  -1.98     -1.36  
+##  7  1.94   -0.319    0.326   0.563    -0.668 
+##  8 -2.36   -1.05    -0.585  -0.437    -1.55  
+##  9 -0.594  -0.286    0.337  -0.765     0.900 
+## 10 -0.545  -1.84     1.32   -0.00508  -2.63  
+## 11 -0.196  -1.04     1.83    0.546    -0.592 
+## 12 -0.830   1.92    -0.773  -0.314     0.673 
+## 13 -1.44   -0.147   -1.14   -0.752    -1.31  
+## 14 -0.0761  0.330   -0.372   1.05     -0.0477
+## 15  0.726  -1.04     0.0239 -0.409    -1.14  
+## 16 -0.788   0.352   -0.179  -2.35     -0.528 
+## 17 -0.819  -0.275    0.930  -0.223    -1.08  
+## 18  0.205  -0.387    1.59   -0.145    -0.738 
+## 19 -0.952  -0.571   -0.119  -0.00796   1.17  
+## 20 -0.966  -0.991    1.62    2.12     -1.88&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Visualizando dados faltantes em gráfico
+require(DescTools)
+PlotMiss(y, main=&amp;quot;Dados Faltantes&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/ConceitosIniciais-Luciane-MultVarII-temaESOLUCAO_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;require(Amelia)
+missmap(y)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/ConceitosIniciais-Luciane-MultVarII-temaESOLUCAO_files/figure-html/unnamed-chunk-1-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;require(MissMech)
+out &amp;lt;- TestMCARNormality(data=y, del.lesscases = 1)
+
+summary(out)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Number of imputation:  1 
+## 
+## Number of Patterns:  2 
+## 
+## Total number of cases used in the analysis:  19 
+## 
+##  Pattern(s) used:
+##           V1   V2   V3   V4   V5   Number of cases
+## group.1    1    1   NA    1   NA                 3
+## group.2    1    1    1    1    1                16
+## 
+## 
+##     Test of normality and Homoscedasticity:
+##   -------------------------------------------
+## 
+## Hawkins Test:
+## 
+##     P-value for the Hawkins test of normality and homoscedasticity:  0.4359473 
+## 
+## Non-Parametric Test:
+## 
+##     P-value for the non-parametric test of homoscedasticity:  0.584033&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Observe que:&lt;/p&gt;
+&lt;p&gt;Há um valor perdido no caso 1 (variável 3);&lt;/p&gt;
+&lt;p&gt;Há 2 valores perdidos nos casos de 2 a 4 (variável 3 e variável 5) o que resultou em 2 grupos, grupo 1 com 3 casos e grupo 2 (caso completo) com 16 casos, totalizando 19 casos na análise;&lt;/p&gt;
+&lt;p&gt;O caso 1 não é considerado pois há apenas um grupo com este padrão;&lt;/p&gt;
+&lt;p&gt;O teste retorna p-valor 0.44 indicando a aceitação da normalidade multivariada e a aleatoriedade dos dados perdidos. Desse modo podemos realizar o processo de atribuição de valores aos casos perdidos.&lt;/p&gt;
+&lt;p&gt;Exercício:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Realize a análise para os dados da tabela 2.1 Ref. (Hair 6a.ed. pág 59)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;C:/Users/TPC02/Documents/Disciplinas/Multivariada/IMG/Dadosperdidos-tab21hair.png&#34; /&gt;
+
+&lt;/div&gt;
+&lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Simule um conjunto de dados com 300 casos e 8 variáveis e alguns dados perdidos distribuídos ao acaso. Realize a análise MCAR. OBS: quando há muitos dados pode-se omitir o argumento &lt;em&gt;del.lesscases&lt;/em&gt;, neste caso o padrão da função &lt;em&gt;TestMCARNormality&lt;/em&gt; do pacote &lt;strong&gt;MissMech&lt;/strong&gt; é &lt;em&gt;del.lesscases&lt;/em&gt;=6, o que significa que todos os grupo com número de casos menor do que 6 não são considerados na análise.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Realize o teste no conjunto de dados iris, imputando alguns valores perdidos, procurando estabelecer um padrão não aleatório.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;irisna=tibble::as.tibble(iris)
+irisna[1:10,1:2] &amp;lt;-NA
+irisna[5:15,3]&amp;lt;-NA
+irisna[1:60,1]&amp;lt;-NA
+irisna[1:100,4]&amp;lt;-NA
+irisna
+out &amp;lt;- TestMCARNormality(data=irisna[,-5], del.lesscases = 1)
+
+summary(out)
+summary(irisna)&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;4&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Apresente visualização de dados perdidos para os casos anteriores&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Para aprofundar seus estudos em visualização de dados perdidos consulte [&lt;a href=&#34;https://www.jstatsoft.org/index.php/jss/article/view/v068i06/v68i06.pdf&#34; class=&#34;uri&#34;&gt;https://www.jstatsoft.org/index.php/jss/article/view/v068i06/v68i06.pdf&lt;/a&gt;]&lt;/p&gt;
+&lt;div id=&#34;tratamentos-para-lidar-com-dados-perdidos&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Tratamentos para lidar com dados perdidos&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Incluir somente as observações com dados completos&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Veja que no exemplo da tab 2-1 do Hair, 23% de dados perdidos levariam a excluir 15 casos dos 20, o que representa um conjunto de dados completos de apenas 5 casos!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Eliminar casos ou variáveis problemáticas&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Seguindo essa diretriz pensaríamos em eliminar o caso 13 e/ou a variável V3 que apresentam os maiores percentuais de dados perdidos. Não há uma orientação segura, desse modo o analista deverá considerar as perdas e ganhos no processo de elminação.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Utilizar um método de atribuição (Hair pág 61 a 64)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;O que são os métodos de atribuição? Qual a vantagem de se utilizar? Que pacotes do R posso utilizar para me auxiliar nesta tarefa?&lt;/p&gt;
+&lt;p&gt;Veja pacote &lt;strong&gt;mice&lt;/strong&gt; função &lt;em&gt;mice&lt;/em&gt; e pacote &lt;strong&gt;VIM&lt;/strong&gt; função &lt;em&gt;kNN&lt;/em&gt;.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;y&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 20 x 5
+##         V1      V2       V3       V4       V5
+##      &amp;lt;dbl&amp;gt;   &amp;lt;dbl&amp;gt;    &amp;lt;dbl&amp;gt;    &amp;lt;dbl&amp;gt;    &amp;lt;dbl&amp;gt;
+##  1  0.132   0.0849  NA       1.57      1.23  
+##  2 -0.898   0.715   NA       0.645    NA     
+##  3  1.35   -0.966   NA       0.853    NA     
+##  4  0.420   0.462   NA      -0.360    NA     
+##  5 -0.288  -0.686   -0.694   0.517     0.509 
+##  6  1.36    0.739    0.157  -1.98     -1.36  
+##  7  1.94   -0.319    0.326   0.563    -0.668 
+##  8 -2.36   -1.05    -0.585  -0.437    -1.55  
+##  9 -0.594  -0.286    0.337  -0.765     0.900 
+## 10 -0.545  -1.84     1.32   -0.00508  -2.63  
+## 11 -0.196  -1.04     1.83    0.546    -0.592 
+## 12 -0.830   1.92    -0.773  -0.314     0.673 
+## 13 -1.44   -0.147   -1.14   -0.752    -1.31  
+## 14 -0.0761  0.330   -0.372   1.05     -0.0477
+## 15  0.726  -1.04     0.0239 -0.409    -1.14  
+## 16 -0.788   0.352   -0.179  -2.35     -0.528 
+## 17 -0.819  -0.275    0.930  -0.223    -1.08  
+## 18  0.205  -0.387    1.59   -0.145    -0.738 
+## 19 -0.952  -0.571   -0.119  -0.00796   1.17  
+## 20 -0.966  -0.991    1.62    2.12     -1.88&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;require(mice)
+complete(mice(y, print=FALSE))&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##             V1          V2          V3           V4          V5
+## 1   0.13154085  0.08487109 -0.17912952  1.567786166  1.22928982
+## 2  -0.89790987  0.71486499 -0.11875332  0.644977071 -0.04770297
+## 3   1.35194461 -0.96624080 -0.69431272  0.853215243 -1.14389243
+## 4   0.42007469  0.46230137  0.15716619 -0.360481960  0.50897487
+## 5  -0.28845968 -0.68605062 -0.69431272  0.517182812  0.50897487
+## 6   1.36456136  0.73876017  0.15716619 -1.978282908 -1.36346885
+## 7   1.93872531 -0.31882166  0.32590725  0.562623033 -0.66770311
+## 8  -2.36098302 -1.05196788 -0.58511242 -0.437089345 -1.55340177
+## 9  -0.59411413 -0.28592085  0.33682643 -0.765279280  0.89950783
+## 10 -0.54455270 -1.83786541  1.31967884 -0.005079319 -2.62924785
+## 11 -0.19590829 -1.03990318  1.83448990  0.546463286 -0.59212631
+## 12 -0.83007345  1.92416803 -0.77276358 -0.313698940  0.67264880
+## 13 -1.43538053 -0.14718335 -1.14073839 -0.751924345 -1.30631003
+## 14 -0.07607103  0.32966774 -0.37153266  1.046418792 -0.04770297
+## 15  0.72586799 -1.03558049  0.02385841 -0.408624843 -1.14389243
+## 16 -0.78773341  0.35150814 -0.17912952 -2.349238899 -0.52763474
+## 17 -0.81867894 -0.27533224  0.93012404 -0.223386083 -1.07938467
+## 18  0.20464153 -0.38736785  1.58910048 -0.144527545 -0.73836031
+## 19 -0.95241303 -0.57081846 -0.11875332 -0.007959542  1.16706441
+## 20 -0.96580033 -0.99120874  1.61812729  2.124718712 -1.87932189&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;require(VIM)
+y_knn=kNN(y)
+y_knn&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##             V1          V2          V3           V4          V5 V1_imp
+## 1   0.13154085  0.08487109 -0.11875332  1.567786166  1.22928982  FALSE
+## 2  -0.89790987  0.71486499 -0.37153266  0.644977071  0.67264880  FALSE
+## 3   1.35194461 -0.96624080 -0.11875332  0.853215243 -0.04770297  FALSE
+## 4   0.42007469  0.46230137 -0.11875332 -0.360481960  0.89950783  FALSE
+## 5  -0.28845968 -0.68605062 -0.69431272  0.517182812  0.50897487  FALSE
+## 6   1.36456136  0.73876017  0.15716619 -1.978282908 -1.36346885  FALSE
+## 7   1.93872531 -0.31882166  0.32590725  0.562623033 -0.66770311  FALSE
+## 8  -2.36098302 -1.05196788 -0.58511242 -0.437089345 -1.55340177  FALSE
+## 9  -0.59411413 -0.28592085  0.33682643 -0.765279280  0.89950783  FALSE
+## 10 -0.54455270 -1.83786541  1.31967884 -0.005079319 -2.62924785  FALSE
+## 11 -0.19590829 -1.03990318  1.83448990  0.546463286 -0.59212631  FALSE
+## 12 -0.83007345  1.92416803 -0.77276358 -0.313698940  0.67264880  FALSE
+## 13 -1.43538053 -0.14718335 -1.14073839 -0.751924345 -1.30631003  FALSE
+## 14 -0.07607103  0.32966774 -0.37153266  1.046418792 -0.04770297  FALSE
+## 15  0.72586799 -1.03558049  0.02385841 -0.408624843 -1.14389243  FALSE
+## 16 -0.78773341  0.35150814 -0.17912952 -2.349238899 -0.52763474  FALSE
+## 17 -0.81867894 -0.27533224  0.93012404 -0.223386083 -1.07938467  FALSE
+## 18  0.20464153 -0.38736785  1.58910048 -0.144527545 -0.73836031  FALSE
+## 19 -0.95241303 -0.57081846 -0.11875332 -0.007959542  1.16706441  FALSE
+## 20 -0.96580033 -0.99120874  1.61812729  2.124718712 -1.87932189  FALSE
+##    V2_imp V3_imp V4_imp V5_imp
+## 1   FALSE   TRUE  FALSE  FALSE
+## 2   FALSE   TRUE  FALSE   TRUE
+## 3   FALSE   TRUE  FALSE   TRUE
+## 4   FALSE   TRUE  FALSE   TRUE
+## 5   FALSE  FALSE  FALSE  FALSE
+## 6   FALSE  FALSE  FALSE  FALSE
+## 7   FALSE  FALSE  FALSE  FALSE
+## 8   FALSE  FALSE  FALSE  FALSE
+## 9   FALSE  FALSE  FALSE  FALSE
+## 10  FALSE  FALSE  FALSE  FALSE
+## 11  FALSE  FALSE  FALSE  FALSE
+## 12  FALSE  FALSE  FALSE  FALSE
+## 13  FALSE  FALSE  FALSE  FALSE
+## 14  FALSE  FALSE  FALSE  FALSE
+## 15  FALSE  FALSE  FALSE  FALSE
+## 16  FALSE  FALSE  FALSE  FALSE
+## 17  FALSE  FALSE  FALSE  FALSE
+## 18  FALSE  FALSE  FALSE  FALSE
+## 19  FALSE  FALSE  FALSE  FALSE
+## 20  FALSE  FALSE  FALSE  FALSE&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;+Exercício: Com base nos dados da tabela 2.1 realize a avaliação de dados perdidos, realize o procedimento de substituição dos valores perdidos e faça uma comparação entre a média das variáveis antes e após a substituição dos valores perdidos.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;aula-3&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Aula 3&lt;/h1&gt;
+&lt;div id=&#34;observacoes-atipicas---o-que-fazer&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Observações atípicas - o que fazer?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Identificá-las&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Motivos de ocorrência: erro de entrada de dados; resultado de um evento extraordinário para o qual haja uma explicação; resultado de um evento extraordinário para o qual não haja uma explicação; observações que estão no intervalo usual de valores para cada variável mas cuja combinação produz resultados fora do comum, por exemplo é possível observar pessoas com 1,50 a 1,90 m e com peso de 40 a 120 kg o que não é comum é uma pessoa de 1,90 m pesar 40 kg.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Detecção Univariada&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Identificar observações atípicas a partir do exame da distribuição de observações. Por exemplo na análise exploratória podemos utilizamos o boxplot ou se a variável possui distribuição normal, padronizar os valores observados que deverão estar entre -3 e 3 com 99.7% de probabilidade, fora deste intervalo é considerado atípico. Para amostras pequenas (80 ou menos), as diretrizes em Hair sugerem escores padronizados entre -2.5 e 2.5; caso contrário é considerado atípico.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;C:/Users/TPC02/Documents/Disciplinas/Multivariada/IMG/outlierunivar1.png&#34; /&gt;
+
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Detecção bivariada&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Utiliza-se o diagrama de dispersão. Os valores atípicos são aqueles que caem fora da elipse que representa o intervalo de confiança da distribuição normal bivariada.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(ggplot2)
+ggplot(faithful, aes(waiting, eruptions)) +
+  geom_point() +
+  stat_ellipse()&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/ConceitosIniciais-Luciane-MultVarII-temaESOLUCAO_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Detecção Multivariada&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Utiliza-se a Medida de Mahalanobis, é uma medida de distância no espaço multidimensional de cada observação em relação ao centro médio das observações. É possível realizar testes de significância para a medida de Mahalanobis.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;df=data.frame(
+  x1=c(1,2,3,5,3,1,8,4,5,4),      x2=c(2,1,3,5,3,3,8,4,5,5),
+  x3=c(1,1,2,3,3,3,8,5,5,5), x4=c(3,1,2,5,2,1,7,4,4,4))
+df #dados&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##    x1 x2 x3 x4
+## 1   1  2  1  3
+## 2   2  1  1  1
+## 3   3  3  2  2
+## 4   5  5  3  5
+## 5   3  3  3  2
+## 6   1  3  3  1
+## 7   8  8  8  7
+## 8   4  4  5  4
+## 9   5  5  5  4
+## 10  4  5  5  4&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;cor(df) #matriz de correlação&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##           x1        x2        x3        x4
+## x1 1.0000000 0.9214520 0.8553220 0.8941547
+## x2 0.9214520 1.0000000 0.9254530 0.9052685
+## x3 0.8553220 0.9254530 1.0000000 0.7914936
+## x4 0.8941547 0.9052685 0.7914936 1.0000000&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;d2=mahalanobis(df, center=colMeans(df),cov=cov(df))
+
+#Se a amostra tiver distribuição aproximadamente normal
+# a distância de mahalanobis terá distribuição
+#qui-quadrada com g = n.variaveis da amostra graus de liberdade.
+
+d2&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##  [1] 6.3040841 4.7731721 2.3674093 4.9064417 1.0433109 6.0088335 4.5807909
+##  [8] 4.1387594 0.7264117 1.1507864&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;qchisq(.975, ncol(df)) #distância acima do percentil 95 indica outlier.&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 11.14329&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Neste exemplo não houve detecção de outlier multivariado usando a distância de Mahalanobis&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;aula-4&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Aula 4:&lt;/h1&gt;
+&lt;div id=&#34;normalidade-multivariada&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Normalidade Multivariada&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Teste univariado da normalidade&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Teste multivariado da normalidade: se uma variável é normal multivariada também é normal univariada. A recíproca nem sempre é verdadeira.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Inicie testando a normalidade univariada: teste de shapiro ou teste de Kolmogorov-Smirnov&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;apply(df,2,shapiro.test)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## $x1
+## 
+##  Shapiro-Wilk normality test
+## 
+## data:  newX[, i]
+## W = 0.93249, p-value = 0.4729
+## 
+## 
+## $x2
+## 
+##  Shapiro-Wilk normality test
+## 
+## data:  newX[, i]
+## W = 0.9366, p-value = 0.5158
+## 
+## 
+## $x3
+## 
+##  Shapiro-Wilk normality test
+## 
+## data:  newX[, i]
+## W = 0.91261, p-value = 0.2994
+## 
+## 
+## $x4
+## 
+##  Shapiro-Wilk normality test
+## 
+## data:  newX[, i]
+## W = 0.93298, p-value = 0.4778&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Pacote para testar normalidade multivariada:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;mvnormtest::mshapiro.test(t(df))&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+##  Shapiro-Wilk normality test
+## 
+## data:  Z
+## W = 0.79992, p-value = 0.01446&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Vamos criar um conjunto de dados com distribuição normal multivariada&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Teste muito sensível, tendência a rejeitar a normalidade 
+n &amp;lt;- 300
+p &amp;lt;- 4
+set.seed(1010)
+y &amp;lt;- matrix(rnorm(n * p),nrow = n)
+
+mvnormtest::mshapiro.test(t(y))&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+##  Shapiro-Wilk normality test
+## 
+## data:  Z
+## W = 0.99435, p-value = 0.3314&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Exercício&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Teste a normalidade multivariada nas variáveis numéricas do conjunto de dados iris&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Crie um conjunto de dados multivariado com n = 300 e p = 5 e aplique o teste de shapiro multivariado ao mesmo.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#1
+irism=as.matrix(iris[,-5])
+
+mvnormtest::mshapiro.test(t(irism))
+
+#2. Semelhante ao exemplo&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;3&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Pesquise sobre o pacote MVN. Para que serve este pacote?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Transformações para atingir a normalidade (Hair pág 81)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Que transformações são possíveis para atingir a normalidade dos dados? Realize uma pesquisa sobre este assunto, apresente um exemplo completo.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;aula-5&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Aula 5&lt;/h1&gt;
+&lt;div id=&#34;dados-nao-metricos-com-variaveis-dicotomicas&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Dados não métricos com variáveis dicotômicas&lt;/h2&gt;
+&lt;p&gt;Variável Sexo, possui 2 categorias feminino ou masculino. Definimos uma variável dicotômica X1 = 1 se feminino ocorre e 0 em caso contrário. Ou ainda X1 = 1 se masculino ocorre e 0 em caso contrário. A categoria omitida refere-se ao grupo de comparação. Assim na modelagem se X1 = 1 for para o caso feminino, estaremos comparando o resultado feminino em relação a categoria omitida que é o grupo masculino. (Hair pg 86 e 87 tabela 2.13 e 2.14)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;multicolinearidade&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Multicolinearidade&lt;/h2&gt;
+&lt;p&gt;Ocorre quando qualquer variável independente é altamente correlacionada com o conjunto de outra variáveis independentes.&lt;/p&gt;
+&lt;p&gt;O ideal é ter diversas variáveis independentes altamente correlacionadas com a variável dependente, mas com pouca correlação entre elas próprias&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;os-efeitos-da-multicolinearidade&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Os efeitos da multicolinearidade&lt;/h2&gt;
+&lt;p&gt;O caso extremo de colinearidade ou multicolinearidade no qual uma variável independente é perfeitamente prevista (uma correlação de ± 1,0) por uma ou mais variáveis independentes.Modelos de regressão não podem ser estimados quando existe uma singularidade. O pesquisador deve omitir uma ou mais das variáveis independentes envolvidas para remover a singularidade.&lt;/p&gt;
+&lt;p&gt;Um exemplo simples:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;M=matrix(c(1,2,4,2,4,8,3,6,12,5,10,1),ncol=3,nrow=4, byrow = T)
+
+M&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##      [,1] [,2] [,3]
+## [1,]    1    2    4
+## [2,]    2    4    8
+## [3,]    3    6   12
+## [4,]    5   10    1&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;cor(M)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##            [,1]       [,2]       [,3]
+## [1,]  1.0000000  1.0000000 -0.3159813
+## [2,]  1.0000000  1.0000000 -0.3159813
+## [3,] -0.3159813 -0.3159813  1.0000000&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;lm(M[,3]~M[,1]+M[,2]) #singularidade não permite estimar o parâmetro&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Call:
+## lm(formula = M[, 3] ~ M[, 1] + M[, 2])
+## 
+## Coefficients:
+## (Intercept)       M[, 1]       M[, 2]  
+##      8.6857      -0.8857           NA&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;lm(M[,1]~M[,2]+M[,3])&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Call:
+## lm(formula = M[, 1] ~ M[, 2] + M[, 3])
+## 
+## Coefficients:
+## (Intercept)       M[, 2]       M[, 3]  
+##   4.441e-16    5.000e-01    1.411e-17&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Um exemplo com 4 variáveis simulando um conjunto de dados com uma estrutura de correlação variada. Mais detalhes pode ser visto &lt;a href=&#34;https://beckmw.wordpress.com/2013/02/05/collinearity-and-stepwise-vif-selection/&#34;&gt;aqui&lt;/a&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;require(MASS)
+require(clusterGeneration)
+
+set.seed(20)
+num.vars&amp;lt;-4
+num.obs&amp;lt;-30
+cov.mat&amp;lt;-genPositiveDefMat(num.vars,covMethod=&amp;quot;unifcorrmat&amp;quot;)$Sigma
+X&amp;lt;-mvrnorm(num.obs,rep(0,num.vars),Sigma=cov.mat)
+print(cor(X), digits = 1)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##      [,1] [,2] [,3] [,4]
+## [1,]  1.0  0.6 -0.5  0.9
+## [2,]  0.6  1.0 -0.5  0.5
+## [3,] -0.5 -0.5  1.0 -0.7
+## [4,]  0.9  0.5 -0.7  1.0&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Agora vamos simular a variável resposta y como combinação linear das quatro variáveis geradas anteriormente mais um erro aleatório.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;set.seed(2)
+parms&amp;lt;-runif(num.vars,-10,10)
+y&amp;lt;-X %*% matrix(parms) + rnorm(num.obs,sd=2)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Agora vamos ajustar um modelo de regressão: y ~ x1+x2+x3+x4&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;dados&amp;lt;-data.frame(y,X)
+form.in&amp;lt;-paste(&amp;#39;y ~&amp;#39;,paste(names(dados)[-1],collapse=&amp;#39;+&amp;#39;))
+form.in&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;y ~ X1+X2+X3+X4&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;mod1&amp;lt;-lm(y ~ X1+X2+X3+X4,data=dados)
+summary(mod1)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Call:
+## lm(formula = y ~ X1 + X2 + X3 + X4, data = dados)
+## 
+## Residuals:
+##     Min      1Q  Median      3Q     Max 
+## -4.7476 -0.8732  0.2273  1.5432  3.2699 
+## 
+## Coefficients:
+##             Estimate Std. Error t value Pr(&amp;gt;|t|)    
+## (Intercept)   0.4505     0.4573   0.985    0.334    
+## X1           -4.3579     4.1721  -1.045    0.306    
+## X2            3.7716     0.7342   5.137 2.61e-05 ***
+## X3            0.6487     1.4254   0.455    0.653    
+## X4           -9.0009     5.3571  -1.680    0.105    
+## ---
+## Signif. codes:  0 &amp;#39;***&amp;#39; 0.001 &amp;#39;**&amp;#39; 0.01 &amp;#39;*&amp;#39; 0.05 &amp;#39;.&amp;#39; 0.1 &amp;#39; &amp;#39; 1
+## 
+## Residual standard error: 2.416 on 25 degrees of freedom
+## Multiple R-squared:  0.9786, Adjusted R-squared:  0.9751 
+## F-statistic: 285.2 on 4 and 25 DF,  p-value: &amp;lt; 2.2e-16&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Esperaríamos que um modelo de regressão indicasse que cada uma das quatro variáveis explanatórias estão significativamente relacionadas à variável resposta y, uma vez que sabemos a verdadeira relação de y com cada uma das variáveis. No entanto, devemos lembrar que nossas variáveis explicativas estão correlacionadas. O que acontece quando criamos o modelo?&lt;/p&gt;
+&lt;p&gt;Observamos que apenas a variável &lt;span class=&#34;math inline&#34;&gt;\(X_2\)&lt;/span&gt; esta significativamente relacionada à variável resposta (com &lt;span class=&#34;math inline&#34;&gt;\(\alpha = 0,05\)&lt;/span&gt;), mas sabemos que cada uma das variáveis está relacionada a y.&lt;/p&gt;
+&lt;p&gt;Podemos tentar uma abordagem alternativa para construir o modelo que considera a colinearidade entre as variáveis explicativas, ou seja, precisamos avaliar a multicolinearidade.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;avaliacao-da-multicolinearidade&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Avaliação da multicolinearidade&lt;/h2&gt;
+&lt;p&gt;Hair (pag 190 6a. edicao) Uma questão-chave na interpretação da variável estatística de regressão é a correlação entre as variáveis independentes. Esse é um problema de dados, e não de especificação de modelo. A situação ideal para um pesquisador seria ter diversas variáveis independentes altamente correlacionadas com a variável dependente, mas com pouca correlação entre elas próprias.&lt;/p&gt;
+&lt;p&gt;A tarefa do pesquisador inclui o seguinte:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Avaliar o grau de multicolinearidade.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Determinar seu impacto sobre os resultados.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Aplicar as necessárias ações corretivas, se for o caso.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A maneira mais simples e óbvia de identificar colinearidade é um exame da matriz de correlação para as variáveis independentes. A presença de elevadas correlações (geralmente 0,90 ou maiores) é a primeira indicação de colinearidade substancial. No entanto, a falta de valores elevados de correlação não garante ausência de colinearidade.&lt;/p&gt;
+&lt;p&gt;Colinearidade pode ser proveniente do efeito combinado de duas ou mais variáveis independentes (o que se chama de multicolinearidade). Para avaliar multicolinearidade precisamos de uma medida que expresse o grau em que cada variável independente é explicada pelo conjunto de outras variáveis independentes. Em termos simples, cada variável independente se torna uma variável dependente e é regredida relativamente às demais variáveis independentes. As duas medidas mais comuns para se avaliar colinearidade aos pares ou múltipla são a tolerância e sua inversa, o fator de inflação de variância conhecido como VIF (Variance Inflation Factor).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;como-detectar-a-multicolinearidade&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Como detectar a multicolinearidade?&lt;/h2&gt;
+&lt;p&gt;Alguns métodos serão listados abaixo:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;strong&gt;Coeficiente de correlação simples&lt;/strong&gt;: é uma medida comumente usada no caso de duas variáveis independentes, sendo suficiente para detectar a colinearidade. Considera-se que um coeficiente de correlação maior que 0,80 ou 0,90 é indicativo de colinearidade. Porém, para mais de duas variáveis independentes, mesmo os coeficientes de correlação sendo baixos ainda pode existir a multicolinearidade, pois pares de correlações podem não dar visão de intercorrelacionamentos mais complexos entre três ou mais variáveis;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;print(cor(X), digits = 1)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##      [,1] [,2] [,3] [,4]
+## [1,]  1.0  0.6 -0.5  0.9
+## [2,]  0.6  1.0 -0.5  0.5
+## [3,] -0.5 -0.5  1.0 -0.7
+## [4,]  0.9  0.5 -0.7  1.0&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;strong&gt;Determinante da matriz de correlação&lt;/strong&gt;: analisar o determinante da matriz de correlações entre as variáveis independentes. Um valor deste determinante próximo de zero é indicativo de multicolinearidade.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;det(cor(X))&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 0.001864246&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;3&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;strong&gt;Autovalores&lt;/strong&gt;: Sejam &lt;span class=&#34;math inline&#34;&gt;\(λ_i\)&lt;/span&gt; , i=1,…,p, os autovalores da matriz de correlação das variáveis independentes. Obtenha L, dado por &lt;span class=&#34;math inline&#34;&gt;\(L=λ_{máx}/λ_{mín}\)&lt;/span&gt;, onde &lt;span class=&#34;math inline&#34;&gt;\(λ_{máx}\)&lt;/span&gt; é o maior autovalor e &lt;span class=&#34;math inline&#34;&gt;\(λ_{mín}\)&lt;/span&gt; é o menor autovalor. Se &lt;span class=&#34;math inline&#34;&gt;\(L &amp;lt; 100\)&lt;/span&gt;, considera-se não existir multicolinearidade, se &lt;span class=&#34;math inline&#34;&gt;\(100 \leq L \leq 1000\)&lt;/span&gt; existe multicolinearidade moderada e se &lt;span class=&#34;math inline&#34;&gt;\(L &amp;gt; 1000\)&lt;/span&gt; há indicativo de forte multicolinearidade.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;lambda=eigen(cor(X))$values
+L= max(lambda)/min(lambda)
+L&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 1311.365&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;4&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;strong&gt;Tolerância/VIF&lt;/strong&gt;: uma forma de descobrir qual variável &lt;span class=&#34;math inline&#34;&gt;\(X_i\)&lt;/span&gt; está relacionada a outras variáveis independentes &lt;span class=&#34;math inline&#34;&gt;\(X_1\)&lt;/span&gt;, &lt;span class=&#34;math inline&#34;&gt;\(X_2\)&lt;/span&gt;, …, &lt;span class=&#34;math inline&#34;&gt;\(X_n\)&lt;/span&gt; é fazer a regressão de cada &lt;span class=&#34;math inline&#34;&gt;\(X_i\)&lt;/span&gt; contra as demais variáveis X e calcular o &lt;span class=&#34;math inline&#34;&gt;\(R^2\)&lt;/span&gt; correspondente (&lt;span class=&#34;math inline&#34;&gt;\(R^2_i\)&lt;/span&gt;). A tolerância é dada por &lt;span class=&#34;math inline&#34;&gt;\(1-R^2_i\)&lt;/span&gt; e o &lt;span class=&#34;math inline&#34;&gt;\(VIF_i = \frac{1}{1-R^2_i}\)&lt;/span&gt;. Se &lt;span class=&#34;math inline&#34;&gt;\(R^2_i\)&lt;/span&gt; aumenta no sentido da unidade, a colinearidade de &lt;span class=&#34;math inline&#34;&gt;\(X_i\)&lt;/span&gt; com os outros regressores também aumenta. Então o VIF também aumenta e, no limite tende a infinito.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;car::vif(mod1)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##        X1        X2        X3        X4 
+## 175.78787  15.57748  36.66688 224.17152&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;toleranciavif&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Tolerância/VIF&lt;/h2&gt;
+&lt;p&gt;Para qualquer modelo de regressão com duas ou mais variáveis independentes, a tolerância pode ser simplesmente definida em dois passos:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Considere cada variável independente, uma por vez, e calcule &lt;span class=&#34;math inline&#34;&gt;\(R^2\)&lt;/span&gt; (coeficiente de variação entre a variável em questão e todas as demais variáveis independentes no modelo de regressão). Neste processo, a variável independente escolhida é transformada em uma dependente prevista pelas demais.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Tolerância é então calculada como 1 – &lt;span class=&#34;math inline&#34;&gt;\(R^2\)&lt;/span&gt; e o VIF = &lt;span class=&#34;math inline&#34;&gt;\(\frac{1}{1-R^2}\)&lt;/span&gt; . Por exemplo, se as outras variáveis independentes explicam 25% da variável independente &lt;span class=&#34;math inline&#34;&gt;\(X_1\)&lt;/span&gt; (&lt;span class=&#34;math inline&#34;&gt;\(R^2\)&lt;/span&gt; = 0,25), então o valor de tolerância de &lt;span class=&#34;math inline&#34;&gt;\(X_1\)&lt;/span&gt; é 0,75 (1,0 – 0,25 = 0,75) e o VIF é 1.33.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;O valor de tolerância deve ser alto, o que significa um pequeno grau de multicolinearidade (i.e., as outras variáveis independentes coletivamente não têm qualquer quantia considerável de variância compartilhada).&lt;/p&gt;
+&lt;p&gt;Abaixo, tabela que indica a relação entre o aumento do grau de correlação entre as variáveis e o aumento do VIF, ou seja, quanto maior a correlação entre as variáveis dependentes maior será o VIF e o nível dessa correlação:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;R2&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Tol&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;VIF&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Niveis&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;até 0.4&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.40&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.60&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1.67&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Fraca&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;próximo de 0.6&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.60&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.40&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;2.50&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Média&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;próximo de 0.75&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.75&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.25&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;4.00&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Forte&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;próximo de 0.85&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.85&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.15&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;6.67&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Muito Forte&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;0.9 ou mais&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.90&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.10&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;10.00&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Fortíssima&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Tem pacote do R para calcular o VIF? Tem vários. Um deles é o &lt;strong&gt;car&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Voltando ao nosso modelo:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(mod1)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Call:
+## lm(formula = y ~ X1 + X2 + X3 + X4, data = dados)
+## 
+## Residuals:
+##     Min      1Q  Median      3Q     Max 
+## -4.7476 -0.8732  0.2273  1.5432  3.2699 
+## 
+## Coefficients:
+##             Estimate Std. Error t value Pr(&amp;gt;|t|)    
+## (Intercept)   0.4505     0.4573   0.985    0.334    
+## X1           -4.3579     4.1721  -1.045    0.306    
+## X2            3.7716     0.7342   5.137 2.61e-05 ***
+## X3            0.6487     1.4254   0.455    0.653    
+## X4           -9.0009     5.3571  -1.680    0.105    
+## ---
+## Signif. codes:  0 &amp;#39;***&amp;#39; 0.001 &amp;#39;**&amp;#39; 0.01 &amp;#39;*&amp;#39; 0.05 &amp;#39;.&amp;#39; 0.1 &amp;#39; &amp;#39; 1
+## 
+## Residual standard error: 2.416 on 25 degrees of freedom
+## Multiple R-squared:  0.9786, Adjusted R-squared:  0.9751 
+## F-statistic: 285.2 on 4 and 25 DF,  p-value: &amp;lt; 2.2e-16&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;car::vif(mod1)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##        X1        X2        X3        X4 
+## 175.78787  15.57748  36.66688 224.17152&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;A variável X4 é a que apresenta o maior valor para VIF. Vamos remover esta variável e repetir a análise.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;mod2&amp;lt;-lm(y ~ X1+X2+X3,data=dados)
+summary(mod2)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Call:
+## lm(formula = y ~ X1 + X2 + X3, data = dados)
+## 
+## Residuals:
+##     Min      1Q  Median      3Q     Max 
+## -5.3324 -1.2362 -0.0395  1.8609  4.1507 
+## 
+## Coefficients:
+##             Estimate Std. Error t value Pr(&amp;gt;|t|)    
+## (Intercept)   0.5305     0.4705   1.128     0.27    
+## X1          -11.3328     0.4314 -26.267  &amp;lt; 2e-16 ***
+## X2            4.9347     0.2529  19.510  &amp;lt; 2e-16 ***
+## X3            2.9938     0.2994   9.999 2.13e-10 ***
+## ---
+## Signif. codes:  0 &amp;#39;***&amp;#39; 0.001 &amp;#39;**&amp;#39; 0.01 &amp;#39;*&amp;#39; 0.05 &amp;#39;.&amp;#39; 0.1 &amp;#39; &amp;#39; 1
+## 
+## Residual standard error: 2.499 on 26 degrees of freedom
+## Multiple R-squared:  0.9761, Adjusted R-squared:  0.9734 
+## F-statistic: 354.5 on 3 and 26 DF,  p-value: &amp;lt; 2.2e-16&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;car::vif(mod2)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##       X1       X2       X3 
+## 1.756630 1.727845 1.511878&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;O modelo 2 de regressão é muito melhor que o modelo 1. Observamos um ajuste melhor do número de variáveis que estão significativamente relacionadas à variável resposta.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;exercicio&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Exercício:&lt;/h2&gt;
+&lt;p&gt;1- Pegue uma base de dados (Iris, attitude, Orange ) e realize a análise de dados discrepantes, multicolinearidade e teste de normalidade.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Dica: se for necessário, faça uma seleção de variáveis.
+
+#teste de valores discrepantes
+d2=mahalanobis(iris[,-5], center=colMeans(iris[,-5]), cov=cov(iris[,-5]))
+qc=qchisq(0.975,4)
+which(d2&amp;gt;qc)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1]  42 115 118 132 135 142&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Teste de multicolinearidade
+Miris=cor(iris[,-5])
+print(Miris,digits = 1)  #indício se multicolinearidade&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##              Sepal.Length Sepal.Width Petal.Length Petal.Width
+## Sepal.Length          1.0        -0.1          0.9         0.8
+## Sepal.Width          -0.1         1.0         -0.4        -0.4
+## Petal.Length          0.9        -0.4          1.0         1.0
+## Petal.Width           0.8        -0.4          1.0         1.0&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;det(Miris) #indício se multicolinearidade&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 0.008109611&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;lambda=eigen(Miris)$values
+L= max(lambda)/min(lambda)
+L #Multicolinearidade Moderada pois L&amp;gt;100&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 140.8893&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;modiris&amp;lt;-lm(Sepal.Length ~ Sepal.Width + Petal.Length + Petal.Width, data=iris)
+summary(modiris)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Call:
+## lm(formula = Sepal.Length ~ Sepal.Width + Petal.Length + Petal.Width, 
+##     data = iris)
+## 
+## Residuals:
+##      Min       1Q   Median       3Q      Max 
+## -0.82816 -0.21989  0.01875  0.19709  0.84570 
+## 
+## Coefficients:
+##              Estimate Std. Error t value Pr(&amp;gt;|t|)    
+## (Intercept)   1.85600    0.25078   7.401 9.85e-12 ***
+## Sepal.Width   0.65084    0.06665   9.765  &amp;lt; 2e-16 ***
+## Petal.Length  0.70913    0.05672  12.502  &amp;lt; 2e-16 ***
+## Petal.Width  -0.55648    0.12755  -4.363 2.41e-05 ***
+## ---
+## Signif. codes:  0 &amp;#39;***&amp;#39; 0.001 &amp;#39;**&amp;#39; 0.01 &amp;#39;*&amp;#39; 0.05 &amp;#39;.&amp;#39; 0.1 &amp;#39; &amp;#39; 1
+## 
+## Residual standard error: 0.3145 on 146 degrees of freedom
+## Multiple R-squared:  0.8586, Adjusted R-squared:  0.8557 
+## F-statistic: 295.5 on 3 and 146 DF,  p-value: &amp;lt; 2.2e-16&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;car::vif(modiris)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##  Sepal.Width Petal.Length  Petal.Width 
+##     1.270815    15.097572    14.234335&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Eliminando Petal.Length
+
+modiris2&amp;lt;-lm(Sepal.Length ~ Sepal.Width +  Petal.Width, data=iris)
+summary(modiris2) #modelo proposto&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Call:
+## lm(formula = Sepal.Length ~ Sepal.Width + Petal.Width, data = iris)
+## 
+## Residuals:
+##     Min      1Q  Median      3Q     Max 
+## -1.2076 -0.2288 -0.0450  0.2266  1.1810 
+## 
+## Coefficients:
+##             Estimate Std. Error t value Pr(&amp;gt;|t|)    
+## (Intercept)  3.45733    0.30919   11.18  &amp;lt; 2e-16 ***
+## Sepal.Width  0.39907    0.09111    4.38 2.24e-05 ***
+## Petal.Width  0.97213    0.05210   18.66  &amp;lt; 2e-16 ***
+## ---
+## Signif. codes:  0 &amp;#39;***&amp;#39; 0.001 &amp;#39;**&amp;#39; 0.01 &amp;#39;*&amp;#39; 0.05 &amp;#39;.&amp;#39; 0.1 &amp;#39; &amp;#39; 1
+## 
+## Residual standard error: 0.4511 on 147 degrees of freedom
+## Multiple R-squared:  0.7072, Adjusted R-squared:  0.7033 
+## F-statistic: 177.6 on 2 and 147 DF,  p-value: &amp;lt; 2.2e-16&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;car::vif(modiris2)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Sepal.Width Petal.Width 
+##    1.154799    1.154799&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#teste de normalidade
+mvnormtest::mshapiro.test(t(as.matrix(iris[,-c(3,5)])))&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+##  Shapiro-Wilk normality test
+## 
+## data:  Z
+## W = 0.98965, p-value = 0.3368&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;2- Crie uma matriz de dados multivariada com 10 variáveis explicativas, 1 variável resposta e 200 observações. Teste a multicolinearidade e proponha um modelo de regressão para y.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Dica: tome como base o último exemplo com a matriz X (linha 356 do arquivo Rmd)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;avaliacao-dos-conceitos-iniciais&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Avaliação dos conceitos iniciais&lt;/h1&gt;
+&lt;p&gt;Prova escrita.&lt;/p&gt;
+&lt;div id=&#34;referencias&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Referências&lt;/h2&gt;
+&lt;p&gt;Cheng, X., Cook, D., &amp;amp; Hofmann, H. (2015). Visually Exploring Missing Values in Multivariable Data Using a Graphical User Interface. Journal of Statistical Software, 68(6), 1 - 23. &lt;a href=&#34;doi:http://dx.doi.org/10.18637/jss.v068.i06&#34; class=&#34;uri&#34;&gt;doi:http://dx.doi.org/10.18637/jss.v068.i06&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Jamshidian, M., Jalal, S., &amp;amp; Jansen, C. (2014). MissMech: An R Package for Testing Homoscedasticity, Multivariate Normality, and Missing Completely at Random (MCAR). Journal of Statistical Software, 56(6), 1 - 31. &lt;a href=&#34;doi:http://dx.doi.org/10.18637/jss.v056.i06&#34; class=&#34;uri&#34;&gt;doi:http://dx.doi.org/10.18637/jss.v056.i06&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://beckmw.wordpress.com/2013/02/05/collinearity-and-stepwise-vif-selection/&#34; class=&#34;uri&#34;&gt;https://beckmw.wordpress.com/2013/02/05/collinearity-and-stepwise-vif-selection/&lt;/a&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;print(sessionInfo(), locale = FALSE)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>R-ladies Niterói</title>
+      <link>/publication/r-ladies-niteroi/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 -0300</pubDate>
+      
+      <guid>/publication/r-ladies-niteroi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>/privacy/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 -0300</pubDate>
+      
+      <guid>/privacy/</guid>
+      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Minicurso de Introdução ao R</title>
+      <link>/publication/introducaoaor/</link>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 -0300</pubDate>
+      
+      <guid>/publication/introducaoaor/</guid>
+      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SER Talk</title>
+      <link>/talk/example/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0200</pubDate>
+      
+      <guid>/talk/example/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;p&gt;Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Academic&amp;rsquo;s &lt;em&gt;Slides&lt;/em&gt; feature and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Estatística é com R! Project</title>
+      <link>/project/external-project1/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0300</pubDate>
+      
+      <guid>/project/external-project1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SER</title>
+      <link>/project/external-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0300</pubDate>
+      
+      <guid>/project/external-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Smart City Project</title>
+      <link>/project/internal-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0300</pubDate>
+      
+      <guid>/project/internal-project/</guid>
+      <description>&lt;p&gt;Equipe multidisciplinar com base matemática, estatística e de engenharia para o desenvolvimento de soluções otimizadas aplicadas à projeção, instalação e monitoramento de processos de engenharia para cidades inteligentes.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>/post/2015-07-23-r-rmarkdown/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2015-07-23-r-rmarkdown/</guid>
+      <description>&lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;R Markdown&lt;/h1&gt;
+&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)
+##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00
+fit &amp;lt;- lm(dist ~ speed, data = cars)
+fit
+## 
+## Call:
+## lm(formula = dist ~ speed, data = cars)
+## 
+## Coefficients:
+## (Intercept)        speed  
+##     -17.579        3.932&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;including-plots&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Including Plots&lt;/h1&gt;
+&lt;p&gt;You can also embed plots. See Figure &lt;a href=&#34;#fig:pie&#34;&gt;1&lt;/a&gt; for example:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;par(mar = c(0, 1, 0, 1))
+pie(
+  c(280, 60, 20),
+  c(&amp;#39;Sky&amp;#39;, &amp;#39;Sunny side of pyramid&amp;#39;, &amp;#39;Shady side of pyramid&amp;#39;),
+  col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;),
+  init.angle = -50, border = NA
+)&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: A fancy pie chart.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>/slides/example-slides/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/slides/example-slides/</guid>
+      <description>
+
+&lt;h1 id=&#34;welcome-to-slides&#34;&gt;Welcome to Slides&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34;&gt;Academic&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
+&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
+&lt;li&gt;Supports speaker notes&lt;/li&gt;
+&lt;li&gt;Mobile friendly slides&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34; target=&#34;_blank&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
+
+&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Code block:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;porridge = &amp;quot;blueberry&amp;quot;
+if porridge == &amp;quot;blueberry&amp;quot;:
+    print(&amp;quot;Eating...&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
+
+&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
+
+&lt;p&gt;Block math:&lt;/p&gt;
+
+&lt;p&gt;$$
+f\left( x \right) = \;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+$$&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
+
+&lt;p&gt;Make content appear incrementally&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
+{{% fragment %}} **Two** {{% /fragment %}}
+{{% fragment %}} Three {{% /fragment %}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+  One
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  &lt;strong&gt;Two&lt;/strong&gt;
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  Three
+&lt;/span&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
+
+&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% speaker_note %}}
+- Only the speaker can read these notes
+- Press `S` key to view
+{{% /speaker_note %}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
+
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;ul&gt;
+&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/aside&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
+&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
+&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
+&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
+&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
+&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/img/boards.jpg&#34;
+  &gt;
+
+
+&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
+
+&lt;p&gt;Customize the slide style and background&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; slide background-image=&amp;quot;/img/boards.jpg&amp;quot; &amp;gt;}}
+{{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
+{{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
+
+&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
+
+&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.reveal section h1,
+.reveal section h2,
+.reveal section h3 {
+  color: navy;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

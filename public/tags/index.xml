@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Analytics</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on Analytics</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Thu, 23 Aug 2018 21:13:14 -0500</lastBuildDate>
+    
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Análise Multivariada</title>
+      <link>/tags/an%C3%A1lise-multivariada/</link>
+      <pubDate>Thu, 23 Aug 2018 21:13:14 -0500</pubDate>
+      
+      <guid>/tags/an%C3%A1lise-multivariada/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R Markdown</title>
+      <link>/tags/r-markdown/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/tags/r-markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R-Estudos</title>
+      <link>/tags/r-estudos/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0300</pubDate>
+      
+      <guid>/tags/r-estudos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SER</title>
+      <link>/tags/ser/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0300</pubDate>
+      
+      <guid>/tags/ser/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Smart-city</title>
+      <link>/tags/smart-city/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0300</pubDate>
+      
+      <guid>/tags/smart-city/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dados faltantes</title>
+      <link>/tags/dados-faltantes/</link>
+      <pubDate>Thu, 23 Aug 2018 21:13:14 -0500</pubDate>
+      
+      <guid>/tags/dados-faltantes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>multicolinearidade</title>
+      <link>/tags/multicolinearidade/</link>
+      <pubDate>Thu, 23 Aug 2018 21:13:14 -0500</pubDate>
+      
+      <guid>/tags/multicolinearidade/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>normalidade multivariada</title>
+      <link>/tags/normalidade-multivariada/</link>
+      <pubDate>Thu, 23 Aug 2018 21:13:14 -0500</pubDate>
+      
+      <guid>/tags/normalidade-multivariada/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>outlier</title>
+      <link>/tags/outlier/</link>
+      <pubDate>Thu, 23 Aug 2018 21:13:14 -0500</pubDate>
+      
+      <guid>/tags/outlier/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rstats</title>
+      <link>/tags/rstats/</link>
+      <pubDate>Sat, 20 Oct 2018 00:00:00 -0300</pubDate>
+      
+      <guid>/tags/rstats/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
